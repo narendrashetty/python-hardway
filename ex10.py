@@ -7,12 +7,12 @@ b = "new\nline"
 #\b backspace
 c = "back \\ s\blash"
 
-d = """
+d = '''
 escape in multiple line
 \t tab
 \\ backslash
 \n new line
-"""
+'''
 
 print a
 print b
