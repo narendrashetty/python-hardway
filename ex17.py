@@ -21,3 +21,7 @@ print "successfully copied"
 
 infile.close()
 outfile.close()
+
+#1 line long
+
+#open(dfname, 'w').write(open(sfname).read()).close()
