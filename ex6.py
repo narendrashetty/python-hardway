@@ -12,7 +12,7 @@ y = "Those who know %s and those who %s." % (binary, do_not)
 print x
 print y
 
-#using %r and %s where %r encloses string with '' but %s doesnt
+#using %r and %s where %r(raw) used for debugging
 print "I said: %r." % x
 print "I also said: '%s'." % y
 
