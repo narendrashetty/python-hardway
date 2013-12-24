@@ -19,6 +19,12 @@ def fun1(arg):
 	d = c + 10
 	return b, c, d
 
-p, q, r = fun1(1000)
+v = 1000
+
+p, q, r = fun1(v)
 
 print "The result is %d %d and %d" % (p, q, r)
+
+v /= 10
+
+print "Can also call function here so we get %d %d and %d" % fun1(v)
