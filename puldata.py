@@ -2,6 +2,6 @@ import urllib, re, sys
 
 a, arg = sys.argv
 
-content = urllib.urlopen('http://finance.google.com/finance?q=%s' % arg).read()
+content = urllib.urlopen('http://in.finance.yahoo.com/q?s=%s' % arg).read()
 
-print re.search('<span id="ref.*>(.*)<',content).group(1)
+print re.search('<span id=".*>(.*)</span>', content).group(1)
